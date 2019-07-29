@@ -1,6 +1,6 @@
 #!/bin/bash
 RUN ln -sf /dev/stdout /var/ossec/logs/ossec.log
-/var/ossec/bin/agent-auth -m ad209f5bda7a011e98e650269ba31080-1608765567.eu-west-1.elb.amazonaws.com
+/var/ossec/bin/agent-auth -m wazuh-workers
 /etc/init.d/wazuh-agent start
 STATUS_CMD="/etc/init.d/wazuh-agent status"
 
