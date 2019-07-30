@@ -1,5 +1,5 @@
 #!/bin/bash
-/var/ossec/bin/agent-auth -m 35.189.97.210 
+/var/ossec/bin/agent-auth -m  35.246.29.40
 /etc/init.d/wazuh-agent start
 STATUS_CMD="/etc/init.d/wazuh-agent status"
 
