@@ -1,5 +1,4 @@
 #!/bin/bash
-RUN ln -sf /dev/stdout /var/ossec/logs/ossec.log
 /var/ossec/bin/agent-auth -m wazuh-workers
 /etc/init.d/wazuh-agent start
 STATUS_CMD="/etc/init.d/wazuh-agent status"
